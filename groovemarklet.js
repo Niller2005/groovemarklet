@@ -93,7 +93,7 @@
     }
 
     function soundcloud() {
-        var song = $('.playbackSoundBadge__title>span[aria-hidden]').text(),
+        var song = $('.playbackSoundBadge__titleLink>span[aria-hidden]').text(),
             title = "Soundcloud - " + song;
         return {
             song: song,
